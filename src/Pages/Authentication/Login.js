@@ -4,6 +4,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import auth from '../../firebase.init';
 
+
 const Login = () => {
     const [user, loading, error] = useAuthState(auth);
     const [signInWithEmailAndPassword, euser,
@@ -62,14 +63,14 @@ const Login = () => {
                     </form>
 
                     {
-                        Emailerror?
-                        <p>Error: {Emailerror.message}</p>
-                        : ' '
+                        Emailerror ?
+                            <p>Error: {Emailerror.message}</p>
+                            : ' '
                     }
                     {
-                        Gerror?
-                        <p>Error: {Gerror.message}</p>
-                        : ' '
+                        Gerror ?
+                            <p>Error: {Gerror.message}</p>
+                            : ' '
                     }
                     <div class="divider">OR Login Using</div>
 
