@@ -6,15 +6,16 @@ import HomeReviews from './HomeReviews';
 import HomeSignup from './HomeSignup';
 import ProductsCarousl from './ProductsCarousl';
 
+
 const Home = () => {
     return (
         <div>
-          <Banner></Banner>
-          <ProductsCarousl></ProductsCarousl>
-          <BuisnessSummary></BuisnessSummary>
-          <HomeReviews></HomeReviews>
-          <HomeFeatured></HomeFeatured>
-          <HomeSignup></HomeSignup>
+            <Banner></Banner>
+            <ProductsCarousl></ProductsCarousl>
+            <BuisnessSummary></BuisnessSummary>
+            <HomeReviews></HomeReviews>
+            <HomeFeatured></HomeFeatured>
+            <HomeSignup></HomeSignup>
         </div>
     );
 };
