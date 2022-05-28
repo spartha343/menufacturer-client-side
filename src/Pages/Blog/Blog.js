@@ -5,6 +5,7 @@ const Blog = () => {
         <section>
             <div class="card-body flex-row">
                 <div class="avatar">
+
                     <div class="w-24 mask mask-squircle">
                         {/* <img src={img} alt={img}/> */}
                     </div>
