@@ -11,6 +11,7 @@ const NotFound = () => {
                         <h1 class="text-5xl font-bold">Looks like You Are Lost</h1>
                         <p class="py-6"></p>
                         <Link to={'/'}>
+
                             <button class="btn btn-primary">Go TO home</button>
                         </Link>
                     </div>
