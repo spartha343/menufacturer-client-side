@@ -24,7 +24,7 @@ import Blog from './Pages/Blog/Blog';
 import Portfolio from './Pages/Portfolio/Portfolio';
 
 function App() {
-    // Create a client
+    // Creating a client
     const queryClient = new QueryClient()
     return (
 
