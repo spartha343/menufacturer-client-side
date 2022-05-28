@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { useQuery } from 'react-query';
 import axiosInterseptor from '../../hooks/axiosInterseptor';
 
+
 const MakePayment = ({ user, ProductId, }) => {
     const deliveryAddress = useRef(' ');
     const deliveryPhone = useRef(' ');
